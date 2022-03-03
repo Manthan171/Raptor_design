@@ -17,10 +17,11 @@ body{
 
 .container {
     width: 100%;
-    height: 54px;
+    margin: 0 auto;
+    /* height: 54px; */
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: center;
 }
 
 .navbar{
@@ -32,19 +33,25 @@ body{
     background: transparent;
     color: #fff;
     z-index: 3;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-list{
     width: 100%;
-    margin-left: 300px;
-    margin-right: 170px;
+    /* margin-left: 300px;
+    margin-right: 170px; */
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    /* flex-wrap: wrap; */
 }
 
 .nav-header {
     height: 50px;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 205px;
+    /* margin-left: 205px; */
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -52,7 +59,6 @@ body{
 }
 
 .nav-list-items{
-    width: 100%;
     display: flex;
     justify-content: space-around;
     /* margin-left: 400px; */
@@ -74,6 +80,12 @@ body{
     border-radius: 18px;
 }
 
+.nav-container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .pic2{
     object-fit: fill;
@@ -81,6 +93,7 @@ body{
 
 .hero-wrap{
     position: relative;
+    height: 90vh;
     z-index: 1;
     min-width: 930px;
     max-width: 1550px;
@@ -91,26 +104,56 @@ body{
 .main-container{
     display: flex;
     justify-content: space-around;
-    margin-left: 140px;
+    /* margin-left: 140px; */
+    position: relative;
 }
 
 .sidebar-text{
     padding-top: 150px;
+    padding-left: 173px;
     /* margin-left: 150px; */
     color: #fff;
+    flex: 1;
 }
 
 .btn {
+    padding: 20px 25px;
+    border: 0.5px solid #fff;
+    border-radius: 35px;
     text-decoration: none;
+    color: #20c997;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.pic2 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+    top: 138px;
+    right: 50px;
+}
+
+
+
+.sidebar-picture{
+    flex: 3;
+}
+
+.sidebar-text h1{
+    font-size: 44px;
     color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+    /* opacity: 0.784229; */
+    margin-bottom: 1.5rem !important;
 }
 
-.pic2 img{
-    /* position: absolute; */
-    width: 90%;
-    margin-top: 50px;
-    max-height: 592px;
-    /* max-width: 300px; */
-    /* width: 893px; */
+.sidebar-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 3rem !important;
 }
-

@@ -1,4 +1,4 @@
-@media  (max-width: 992px){
+@media screen and  (max-width: 992px){
     .navbar{
         min-width: 992px;
         position: fixed;
@@ -6,15 +6,19 @@
         background-color: #343a40;
     }
 
-    .nav-header{
+    /* .nav-header{
         margin-left: 150px;
-    }
+    } */
 
     .nav-list{
         margin-left: 35px;
     }
 
-    .pic2 img{
-        height: 380px;
+    .hero-wrap{
+        height: 100vh;
     }
+}
+
+@media (max-width: 992px){
+
 }
