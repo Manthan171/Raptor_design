@@ -17,12 +17,8 @@ body{
 
 
 .container {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
-    /* height: 54px; */
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
 }
 
 .navbar{
@@ -82,7 +78,7 @@ body{
 }
 
 .nav-container {
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,7 +92,7 @@ body{
     position: relative;
     height: 90vh;
     z-index: 1;
-    min-width: 930px;
+    /* min-width: 930px; */
     /* max-width: 1550px; */
     background: rgb(34,187,212);
     background: linear-gradient(to bottom, rgba(34,187,212,1) 0%, rgba(32,201,151,1) 67%);
@@ -167,4 +163,81 @@ body{
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 3rem !important;
+}
+
+
+/* Domain Section */
+
+.domain-section{
+    padding: 128px 0;
+    background: #f8faff;
+    text-align: center;
+}
+
+.text-container{
+    margin: 48px -15px;
+}
+
+.get-domain{
+    text-align: center;
+}
+
+.get-domain span{
+    color: #24bdc9;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.get-domain h2{
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.get-domain p{
+    margin-bottom: 16px;
+}
+
+.form-container{
+    padding: 20px;
+    border: 1px solid #9ff0c8;
+    width: 730px;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.search-domain{
+    height: 70px;
+    border: transparent;
+    flex: 2.5;
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn{
+    background: #22d47b;
+    border: 2px solid #22d47b;
+    color: #fff;
+    height: 70px;
+    flex: 1.5;
+    font-size: 18px;
+}
+
+::placeholder {
+    padding-left: 20px;
+}
+
+.domain-price span small {
+    color: #24bdc9;
+}
+
+.domain-price span{
+    color: #3a4348;
+    margin: 0 10px;
 }

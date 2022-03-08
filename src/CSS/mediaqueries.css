@@ -124,3 +124,30 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 1200px){
+    .form-container{
+        width: 630px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .form-container{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .form-container{
+        flex-direction: column;
+    }
+
+    .search-domain{
+        line-height: 70px;
+        height: auto;
+    }
+
+    .search-btn{
+        line-height: 70px;
+    }
+}
