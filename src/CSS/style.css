@@ -241,3 +241,25 @@ body{
     color: #3a4348;
     margin: 0 10px;
 }
+
+/* Services section */
+
+.service-section{
+    text-align: center;
+    padding: 128px 0;
+}
+
+.service-header .sub-heading {
+    color: #24bdc9;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.service-section h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-family: inherit;
+    color: #3a4348;
+}
