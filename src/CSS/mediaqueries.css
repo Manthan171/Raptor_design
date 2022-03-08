@@ -1,4 +1,4 @@
-@media screen and  (max-width: 992px){
+@media   screen and  (max-width: 992px){
     .navbar{
         min-width: 992px;
         position: fixed;
@@ -54,6 +54,73 @@
     }
 }
 
-@media (max-width: 992px){
+/* Image responsive media quries */
 
+@media   screen and (max-width: 1400px) and (min-width: 1200px) {
+    .pic2{
+        bottom: -25%;
+    }
+}
+
+@media   screen and (max-width: 1199px) and (min-width: 1000px) {
+    .pic2{
+        bottom: -20%;
+    }
+    .pic2 img{
+        width: 100%;
+    }
+}
+
+@media   screen and (max-width: 999px) and (min-width: 900px) {
+    .pic2{
+        bottom: -31%;
+    }
+
+    .pic2 img{
+        width: 100%;
+    }
+}
+
+@media   screen and (max-width: 899px) and (min-width: 768px) {
+    .pic2{
+        bottom: -31%;
+    }
+
+    .pic2 img{
+        width: 100%;
+    }
+}
+
+/* header media quries */
+
+@media   screen and (max-width: 768px) {
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-wrap{
+        height: 750px;
+    }
+
+    .pic2 {
+        position: relative;
+    }
+
+    .sidebar-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: space-around;
+        padding-left: 0;
+    }
+
+    .sidebar-text p{
+        width: 90%;
+        text-align: center;
+    }
+    .sidebar-text h1{
+        text-align: center;
+    }
 }

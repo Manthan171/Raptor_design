@@ -11,7 +11,8 @@ body{
     font-size: 16px;
     line-height: 1.8;
     font-weight: 300;
-    color: #81919a
+    color: #81919a;
+    width: 100%;
 }
 
 
@@ -27,8 +28,8 @@ body{
 .navbar{
     position: absolute;
     top: 20px;
-    min-width: 930px;
-    max-width: 1550px;
+    /* min-width: 930px; */
+    /* max-width: 1550px; */
     width: 100%;
     background: transparent;
     color: #fff;
@@ -132,7 +133,7 @@ body{
     align-items: end;
     position: absolute;
     /* top: 212px; */
-    bottom: -31px;
+    bottom: -31%;
 
     /* right: 50px; */
 }
