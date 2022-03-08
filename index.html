@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./src/CSS/style.css" />
     <link rel="stylesheet" href="./src/css/mediaqueries.css" />
     <title>Raptor</title>
@@ -14,7 +18,7 @@
         <div class="nav-container">
           <a class="nav-header" href="index.html">RAPTOR.</a>
           <div class="nav-list">
-            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <i class="fa fa-bars" onclick="toggleButton()"></i>
             <ul class="nav-list-items" id="topnav">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
@@ -43,7 +47,6 @@
                   </button></a
                 >
               </li>
-              <div class="closeMenu"><i class="fa fa-times"></i></div>
               <!-- <a href="#" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a> -->

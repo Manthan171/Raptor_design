@@ -5,6 +5,32 @@
         top: 0;
         background-color: #343a40;
     }
+    
+    .nav-container{
+        padding: 8px 16px;
+    }
+
+    .nav-header{
+        width: 100%;
+        padding-left: 28px;
+    }
+
+    .nav-container,
+    .nav-list-items { 
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-item{
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .nav-link button {
+        text-align: start;
+        width: 100%;
+    }
 
     /* .nav-header{
         margin-left: 150px;
@@ -16,6 +42,15 @@
 
     .hero-wrap{
         height: 100vh;
+        /* margin-top: 405px; */
+    }
+
+    .fa{
+        display: block;
+    }
+
+    .nav-list-items{
+        display: none;
     }
 }
 
