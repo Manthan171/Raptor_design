@@ -249,6 +249,11 @@ body{
     padding: 128px 0;
 }
 
+.service-header{
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+
 .service-header .sub-heading {
     color: #24bdc9;
     margin-bottom: 20px;
@@ -262,4 +267,40 @@ body{
     margin-bottom: 24px;
     font-family: inherit;
     color: #3a4348;
+}
+
+.services-info{
+    padding: 8px;
+    margin-top: 16px;
+}
+
+.services-info h3{
+    display: block;
+    font-size: 1.17em;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.services-info p{
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.service{
+    width: 30%;
+}
+
+.services-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-img{
+    width: 60px;
+    fill: #20c997;
+}
+
+.icon {
+    line-height: 1.3;
 }
