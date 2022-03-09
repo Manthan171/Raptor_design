@@ -162,3 +162,24 @@
         width: 70%;
     }
 }
+
+
+@media only screen and (max-width: 1200px){
+    .pricing-main{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .pricing-main{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .pricing{
+        width: 510px;
+    }
+    .pricing-btn{
+        width: auto;
+    }
+}
