@@ -468,3 +468,92 @@ body{
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* Reviews section */
+
+.reviews-section{
+    padding: 128px 0;
+    text-align: center;
+    background: #f8faff !important;
+}
+
+.reviews-header-main{
+    display: flex;
+    justify-content: center;
+}
+
+.reviews-header{
+    width: 52%;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+
+.reviews-header h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    font-family: inherit;
+    color: #3a4348;
+}
+
+.reviews-header p{
+    margin-bottom: 16px;
+}
+
+.client-reviews{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items{
+    position: relative;
+}
+
+.image-wrapper{
+    position: absolute;
+    top: -20px;
+    left: 8px;
+}
+
+.image-wrapper img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.image-wrapper i {
+    position: absolute;
+    top: 64px;
+    left: 68px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e1faee;
+    border-radius: 50%;
+    color: #22d47b;
+}
+
+.customer-img{
+    margin-bottom: 48px;
+}
+
+.description{
+    margin-bottom: 48px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    color: #3a4348;
+}
+
+.reviews{
+    width: 290px;
+    background: #fff;
+    padding: 100px 24px 35px 24px;
+
+}
