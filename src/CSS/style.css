@@ -15,6 +15,14 @@ body{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
 
 .container {
     width: 80%;
@@ -777,6 +785,133 @@ body{
 .blog-main {
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
-    /* margin-bottom: 48px; */
+}
+
+/* Footer section */
+
+.footer{
+    background: #24bdc9;
+    padding: 192px 0 128px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section{
+    width: calc(100%/4);
+}
+
+.icon-wrapper{
+    display: flex;
+    margin: 48px 0 16px 0;
+
+    /* justify-content: space-around; */
+}
+
+.section h2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section p{
+    color: rgba(255,255,255,0.7);
+    /* font-size: 14px; */
+    margin-bottom: 16px;
+} 
+
+.btn-1 {
+    color: rgba(255,255,255,.7);
+    margin: 40px 0 16px 0;
+}
+
+.btn-1 a{
+    color: #24bdc9;
+    padding: 16px;
+    background: #fff!important;
+    border: 2px solid #fff!important;
+    border-radius: 30px;
+}
+
+.wrapper{
+    margin-right: 75px;
+}
+
+.first-wrapper{
+    margin: 0 0 24px 48px;
+}
+
+.first-wrapper ul li a {
+    color: rgba(255,255,255,.7);
+}
+
+.first-wrapper ul li{
+    height: 40px;
+}
+
+.second-wrapper ul li a{
+    color: rgba(255,255,255,.7);
+    padding: 8px 0;
+}
+
+.second-wrapper ul li{
+    height: 40px;
+}
+
+.third-wrapper ul li a{
+    color: rgba(255,255,255,.7);
+}
+
+.third-wrapper ul li {
+    padding: 10px 0;
+}
+
+.third-wrapper ul :first-child{
+    padding-top: 0;
+}
+
+.third-wrapper ul li span{
+    padding-left: 10px;
+}
+
+.icon-link{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255,.05);
+    margin-right: 10px;
+}
+
+.social-icon{
+    font-size: 25px !important;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p{
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-main{
+    margin-bottom: 48px;
+}
+
+.footer-container{
+    width: 70% !important;
 }
