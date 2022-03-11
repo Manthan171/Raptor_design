@@ -1,5 +1,5 @@
 function toggleButton() {
-    var x = document.getElementsByClassName("nav-list-items")[0];
+    var x = document.getElementsByClassName("nav-list")[0];
     if (x.style.display === "block") {
         x.style.display = "none";
     } else {

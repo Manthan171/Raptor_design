@@ -1,25 +1,18 @@
 @media   screen and  (max-width: 992px){
     .navbar{
-        min-width: 992px;
         position: fixed;
         top: 0;
+        flex-direction: column;
         background-color: #343a40;
-    }
-    
-    .nav-container{
-        padding: 8px 16px;
-    }
-
-    .nav-header{
-        width: 100%;
-        padding-left: 28px;
     }
 
     .nav-container,
     .nav-list-items { 
+        width: 100%;
+    }
+    .nav-list-items { 
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
     }
 
     .nav-item{
@@ -32,26 +25,18 @@
         width: 100%;
     }
 
-    /* .nav-header{
-        margin-left: 150px;
-    } */
-
     .nav-list{
-        margin-left: 35px;
+        background: #343a40;
+        position: relative;
     }
 
     .hero-wrap{
         height: 100vh;
-        /* margin-top: 405px; */
     }
 
-    .nav-list .fa{
+    .nav-container .fa{
         display: block;
         color: #fff;
-    }
-
-    .nav-list-items{
-        display: none;
     }
 }
 
