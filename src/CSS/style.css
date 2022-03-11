@@ -919,3 +919,9 @@ li{
 .footer-container{
     width: 70% !important;
 }
+
+.hosting-btn-primary {
+    background: #22d47b !important;
+    color: #fff;
+    border: 1px solid #22d47b !important;
+}
