@@ -177,7 +177,7 @@
         flex-wrap: nowrap;
     }
     .pricing{
-        width: 510px;
+        width: 100%;
     }
     .pricing-btn{
         width: auto;
