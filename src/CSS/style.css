@@ -738,6 +738,7 @@ body{
 .blog-img a img{
     height: 350px;
     width: 100%;
+    object-fit: cover;
 }
 
 .blog-text .sec-1 div a{
