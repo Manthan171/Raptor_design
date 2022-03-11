@@ -509,11 +509,12 @@ body{
 
 .items{
     position: relative;
+    margin-bottom: 48px;
 }
 
 .image-wrapper{
     position: absolute;
-    top: -20px;
+    top: -10px;
     left: 8px;
 }
 
@@ -555,5 +556,4 @@ body{
     width: 290px;
     background: #fff;
     padding: 100px 24px 35px 24px;
-
 }
