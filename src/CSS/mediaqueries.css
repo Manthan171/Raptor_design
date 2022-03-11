@@ -249,3 +249,23 @@
         margin-bottom: 50px;
     }
 }
+
+@media only screen and (max-width:768px){
+    .section{
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .footer-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-wrapper{
+        margin: 0;
+    }
+
+    .wrapper {
+        margin-right: 0;
+    }
+}

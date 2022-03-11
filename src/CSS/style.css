@@ -831,12 +831,15 @@ li{
     margin: 40px 0 16px 0;
 }
 
-.btn-1 a{
-    color: #24bdc9;
-    padding: 16px;
+.btn-1 button{
+    padding: 18px 30px;
     background: #fff!important;
     border: 2px solid #fff!important;
     border-radius: 30px;
+}
+
+.btn-1 button a{
+    color: #24bdc9;
 }
 
 .wrapper{
