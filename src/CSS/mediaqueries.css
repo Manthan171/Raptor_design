@@ -45,8 +45,9 @@
         /* margin-top: 405px; */
     }
 
-    .fa{
+    .nav-list .fa{
         display: block;
+        color: #fff;
     }
 
     .nav-list-items{
