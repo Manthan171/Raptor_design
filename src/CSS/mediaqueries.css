@@ -151,3 +151,9 @@
         line-height: 70px;
     }
 }
+
+@media only screen and (max-width: 576px){
+    .form-container{
+        width: 100%;
+    }
+}
