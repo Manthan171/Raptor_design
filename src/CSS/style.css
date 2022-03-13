@@ -46,6 +46,7 @@ li{
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    /* display: block; */
 }
 
 .nav-header {
@@ -85,7 +86,7 @@ li{
     /* width: 80%; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pic2{

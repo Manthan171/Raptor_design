@@ -28,13 +28,14 @@
     .nav-list{
         background: #343a40;
         position: relative;
+        display: none;
     }
 
     .hero-wrap{
         height: 100vh;
     }
 
-    .nav-container .fa{
+    .nav-container   .fa{
         display: block;
         color: #fff;
     }
