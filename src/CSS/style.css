@@ -303,6 +303,7 @@ h1,h2,h3,h4,h5,h6{
 .services-main {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 .logo-img{
