@@ -402,10 +402,16 @@ h1,h2,h3,h4,h5,h6{
     color: #b3b3b3;
 }
 
+.pricing-text li strong{
+    font-weight: bolder;
+    color: #3a4348;
+}
+
 .block-1 {
     padding: 0 40px 40px 40px;
     margin-bottom: 30px;
     background: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 3%);
 }
 
 .pricing {
