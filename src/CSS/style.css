@@ -23,6 +23,15 @@ li{
     list-style-type: none;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    color: #3a4348;
+}
+
+*:focus {
+    outline: none;
+}
+
 
 .container {
     width: 80%;
@@ -215,6 +224,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 15px;
 }
 
 .search-btn{
@@ -226,8 +236,11 @@ li{
     font-size: 18px;
 }
 
-::placeholder {
+.form-container ::placeholder {
     padding-left: 20px;
+    color: #3a4348!important;
+    font-family: "Poppins",Arial, sans-serif;
+    font: lighter;
 }
 
 .domain-price span small {
@@ -275,7 +288,6 @@ li{
     display: block;
     font-size: 1.17em;
     margin-bottom: 8px;
-    font-weight: bold;
 }
 
 .services-info p{
