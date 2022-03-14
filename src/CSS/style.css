@@ -75,7 +75,7 @@ body{
 }
 
 .nav-container {
-    width: 80%;
+    width: 80% !important;
     display: flex;
     align-items: center;
     justify-content: space-around;
