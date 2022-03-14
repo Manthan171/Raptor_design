@@ -880,6 +880,7 @@ h1,h2,h3,h4,h5,h6{
 
 .first-wrapper ul li a {
     color: rgba(255,255,255,.7);
+    transition: 0.2s all ease-in-out;
 }
 
 .first-wrapper ul li{
@@ -889,6 +890,7 @@ h1,h2,h3,h4,h5,h6{
 .second-wrapper ul li a{
     color: rgba(255,255,255,.7);
     padding: 8px 0;
+    transition: 0.2s all ease-in-out;
 }
 
 .second-wrapper ul li{
@@ -944,11 +946,23 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .footer-container{
-    width: 70% !important;
+    width: 75% !important;
 }
 
 .hosting-btn-primary {
     background: #22d47b !important;
     color: #fff;
     border: 1px solid #22d47b !important;
+}
+
+.first-wrapper ul li a:hover{
+    color: white;
+}
+
+.second-wrapper ul li a:hover{
+    color: white;
+}
+
+.btn-1 button a{
+    font-size: 1rem;
 }
