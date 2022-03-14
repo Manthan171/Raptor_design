@@ -532,7 +532,7 @@ h1,h2,h3,h4,h5,h6{
 
 .image-wrapper{
     position: absolute;
-    top: -10px;
+    top: -5px;
     left: 8px;
 }
 
@@ -544,8 +544,8 @@ h1,h2,h3,h4,h5,h6{
 
 .image-wrapper i {
     position: absolute;
-    top: 64px;
-    left: 68px;
+    top: 60px;
+    left: 64px;
     height: 40px;
     width: 40px;
     display: flex;
@@ -562,6 +562,7 @@ h1,h2,h3,h4,h5,h6{
 
 .description{
     margin-bottom: 48px;
+    padding-right: 8px;
 }
 
 .name {
@@ -571,9 +572,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .reviews{
-    width: 290px;
+    width: 300px;
     background: #fff;
     padding: 100px 24px 35px 24px;
+}
+
+.reviews-container{
+    width: 75% !important;
 }
 
 /* Hosting section */
