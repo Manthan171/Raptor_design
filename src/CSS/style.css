@@ -58,6 +58,15 @@ h1,h2,h3,h4,h5,h6{
     /* display: block; */
 }
 
+.nav-link-1{
+    color: rgba(255, 255, 255, 0.5) !important;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-link-1:hover{
+    color: #fff !important;
+}
+
 .nav-header {
     height: 50px;
     font-size: 20px;
@@ -92,10 +101,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .nav-container {
-    width: 80% !important;
+    width: 52% !important;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .pic2{

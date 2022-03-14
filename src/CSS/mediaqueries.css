@@ -6,6 +6,11 @@
         background-color: #343a40;
     }
 
+    .nav-container{
+        justify-content: space-between;
+        width: 80% !important;
+    }
+
     .nav-container,
     .nav-list-items { 
         width: 100%;
