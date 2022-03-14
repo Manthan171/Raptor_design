@@ -278,6 +278,10 @@
     .blog-container {
         width: 100%;
     }
+
+    .hosting-desc{
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 576px){

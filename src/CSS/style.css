@@ -611,7 +611,7 @@ h1,h2,h3,h4,h5,h6{
 .button,
 .link{
     text-decoration: none;
-    padding: 12px 35px 12px 35px;
+    padding: 12px 22px 12px 22px;
     background: #fff;
     color: #22d47b;
     border: 1px solid #73e9ae;
@@ -640,6 +640,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 48px;
 }
 
 .hosting-desc{
