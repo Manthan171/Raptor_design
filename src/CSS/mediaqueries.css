@@ -223,6 +223,10 @@
         height: 200px;
         width: 300px;
     }
+
+    .newsletter-desc{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:768px){

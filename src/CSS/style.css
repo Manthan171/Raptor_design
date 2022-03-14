@@ -701,7 +701,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .form-control {
-    padding: 6px 60px 6px 3px;
+    padding: 6px 60px 6px 15px;
     background: transparent!important;
     border: 1px solid rgba(255,255,255,.7);
     color: rgba(255,255,255,.8)!important;
@@ -714,7 +714,7 @@ h1,h2,h3,h4,h5,h6{
 
 .form-group span{
     position: absolute;
-    right: 42%;
+    right: 41.5%;
     margin-top: 10px;
 }
 
